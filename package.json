@@ -1,0 +1,22 @@
+{
+  "name": "secure-online-voting",
+  "version": "1.0.0",
+  "description": "Secure online voting system for university cybersecurity project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.3",
+    "chart.js": "^4.4.0",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}
